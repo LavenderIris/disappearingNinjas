@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Color picker</title>
+
+</head>
+
+<body bgcolor=rgb({{r}},{{g}},{{b}})>
+    <h1>Enter your color values below:</h1>
+    <!-- read on to learn about form actions, we'll talk about the method in a later section -->
+    <form action='/color' method='post'> Red: <input type='text' name='r'><br> Green: <input type='text' name='g'><br> Blue: <input type='text' name='b'><br>
+        <p>All values must be between 1 and 255</p>
+        <input type='submit' value='Create User'>
+
+</body>
+
+</html>
